@@ -1,0 +1,255 @@
+*{
+      padding:0;
+      margin:0;
+      box-sizing:border-box;
+}
+header{
+      align-items: center;
+}
+nav{
+      position:sticky;
+      display:flex;
+      align-items: center;
+      justify-content: space-around;
+      height: 100px;
+      background-color: rgb(159,232,235);
+      box-shadow: 0px -15px 50px;
+      user-select: none;
+      z-index: 50;
+
+
+}
+.logo
+{
+      margin-left: 100px;
+
+}
+.logo img{
+      height: 100px;
+      width: 80px;
+}
+.menu a{
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      margin-inline:50px;
+      font-family: 'Segeo UI ','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.img1 img{
+      height: 600px;
+      width: 650px;
+      padding: 100px;
+     
+}
+.icon i{ 
+      width: 50px;
+      scale:3;
+
+}
+.icon2 img{
+      height: 20px;
+      width: 150px;
+}
+.box
+{
+      margin-left: 200px;
+
+}
+.product h2{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+}
+
+.food h1{
+      font-weight: 600;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin: 15px -2px;
+     margin-left: -5px;
+}
+.info h3{
+font-size: 15px;
+font-weight: 50;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 30px;
+
+}
+.btn
+{
+      font-size: 20px;
+      padding: 10px;
+      font-weight: 200;
+      background-color: yellow;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      border: none;
+
+}
+.items
+{
+      display: flex;
+      margin: 100px;
+      padding: 20px;
+      box-shadow: 0px 2px 15px;
+      border-radius: 15px;
+      justify-content: space-around;
+
+}
+.item1 img
+{
+      height: 200px;
+      width: 500px;
+}
+.item5 img{
+      height: 100px;
+      width: 100px;
+}
+
+.img i{
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+
+}
+.item7
+{
+height: 200px;
+width: 150px;
+}
+.item1:hover{
+      height: 100px;
+      width: 80px;
+}
+.items img{
+      width: 400px;
+      padding: 5px;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.grid-containor
+{
+      align-items: center;
+      padding: 150px;
+      padding-top: 70px;
+
+}
+.flex1
+{
+      display: flex;
+      gap: 10px;
+
+}
+.flex2
+{
+      gap: 10px;
+
+}
+.flex2 img{
+      margin: 5px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+
+}
+      .item5 img{
+            margin-top: 10px;
+            height: 350px;
+            width: 450px;
+
+      }
+      .mr
+      {
+            display: grid;
+
+      }
+      .item6 img{
+            margin-left: -130px;
+            width: 400px;
+            height: 350px;
+      }
+      .item6 img{
+            margin-left: -130px;
+            width: 400px;
+            height: 350px;
+            margin-top: 10px;
+      }
+      .item1:hover{
+            scale: 1.1;
+            filter:blur(2px);
+
+
+      }
+      .item2:hover{
+            scale: 1.1;
+            filter:blur(2px);
+      }
+      .item3:hover{
+            scale: 1.1;
+            filter:blur(2px);
+      }
+      .item4:hover{
+            scale: 1.1;
+            filter:blur(2px);
+      }
+      .item5:hover{
+            scale: 1.1;
+            filter:blur(2px);
+      }
+      .item6:hover{
+            scale: 1.1;
+            filter:blur(2px);
+      }
+      footer{
+            background-color: aqua;
+            padding: 50px;
+            height: 350px;
+
+
+      }
+      .footer-containor
+      {
+            display: flex;
+            justify-content: space-around;
+
+      }
+      .footerlogo
+      {
+            padding: 10px;
+
+      }
+      .main-links h2{
+            font-size: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-bottom: 20px;
+
+      }
+      .main-links ul{
+            font-size: 20px;
+            margin: 5px;
+            text-decoration: none;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+      }
+      .main-links ul li{
+            margin: 20px;
+            display: block;
+
+      }
+      .news_letter
+      {
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+      }
+      .news_letter h3{
+            font-size: 40px;
+            padding-left: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .news_letter input{
+            font-size: 20px;
+            border: none;
+            border-radius: 30px;
+            padding: 10px;
+            margin-top: 20px;
+      }

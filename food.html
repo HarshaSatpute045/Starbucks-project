@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturant </title>
+    <link rel="stylesheet" href="./food.css">
+    <link rel="icon" href="data:image/png;base64,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">
+    
+</head>
+<header>
+    <nav class="nav-bar">
+        <div class="logo">
+            <img src="./images__3_-removebg-preview.png" alt="logo">
+
+        </div>
+        <div class ="menu">
+            <a href="#">Home</a><a href="#">Orders</a><a href="#">Sign Up</a>
+        </div>
+        <div class="icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+</header>
+<main class="main-com">
+    <div class="box">
+        <div class="img1">
+            <img src="https://i.pinimg.com/originals/79/6d/cb/796dcbe2834d63e3ac6ed0ef59dbfbab.gif" alt="hero" class="rotatable">
+        </div>
+    </div>
+    <div class="right">
+        <div class="product">
+            <h2>
+                50% OFF on All product
+            </h2>
+        </div>
+        <div class="food">
+            <h1>
+                Enjoy your Delicious Food
+            </h1>
+        </div>
+        <div class="info">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corporis quis nihil impedit facilis, deleniti illum aliquam debitis voluptatem consequatur quibusdam quaerat? Tempora, quas exercitationem.</h3>
+        </div>
+        <div class="btns">
+            <button class="btn">
+                Explore Now
+            </button>
+            </div>
+        </div>
+    </div>
+    <div class="items">
+        <div class="hvr">
+            <div class="im1">
+                <div class="icon2">
+                    <img src="./download (5).png" alt="grocery">
+                </div>
+                <div class="title">
+                    <h2>
+                        Food deliver
+                    </h2>
+                    <h3>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, quia.
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="hvr">
+            <div class="im1">
+                <div class="icon2">
+                    <img src="./download(5).png" alt="grocery">
+                </div>
+                <div class="title">
+                    <h2>
+                        Grocery
+                    </h2>
+                    <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, libero!</h3>
+
+                </div>
+            </div>
+        </div>
+        <div class="hvr">
+            <div class="im1">
+                <div class="icon2">
+                    <img src="./download (1).jpg" alt="house">
+                </div>
+                <div class="title">
+                    <h2>
+                        Fast Delivery
+                    </h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, culpa.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-menu">
+        <h3>Our menu
+        </h3>
+    </div>
+    <div class="men">
+        <h1>Explore our menu</h1>
+    </div>
+    <div class="grid-containor">
+        <div class="flex1">
+<div class="mr">
+    <div class="item1">
+        <img src="https://content.jdmagicbox.com/comp/indore/v6/0731px731.x731.181012033330.q9v6/catalogue/bella-south-indian-centre-hig-lig-indore-south-indian-restaurants-0dnjgttr5m.jpg?clr=#4c381a" alt="img1">
+    </div>
+    <div class="item5">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl3sYe8mEgj4N8VCAEpP33nPYJVTOUieEpVg&s" alt="img5">
+    </div>
+</div>
+<div class="mr">
+    <div class="item2">
+        <img src="./download (4).jpg" alt="img2">
+    </div>
+    <div class="item7">
+        <img src="./download (5).jpg" alt="img6">
+    </div>
+
+</div>
+<div class="flex2">
+    <div class="item3">
+        <img src="./download (6).jpg" alt="img3">
+    </div>
+    <div class="item4">
+        <img src="./download (1).jpg" alt="img4">
+    </div>
+</div>
+        </div>
+    </div>
+
+</main>
+<footer>
+    <div class="footer-containor">
+      <div class="footerlogo">
+        <img src="./images__3_-removebg-preview.png" alt="logo">
+      </div>
+<div class="main-links">
+    <h2>Main Links</h2>
+    <ul>
+        <li>Order Track</li>
+        <li>New Order</li>
+        <li>Contact US</li>
+        <li>News&blogs</li>
+        <li>Recommend
+
+        </li>
+    </ul>
+</div>
+<div class="main-links">
+    <h2 class="Support">Support</h2>
+    <ul>
+        <li>About us</li>
+        <li>Privacy Policy</li>
+        <li>Terms&Conditions</li>
+
+    </ul>
+</div>
+<div class="news_letter">
+    <h3>Support</h3>
+    <input type="email"placeholder="Enter your email">
+</div>
+    </div>
+</footer>
+<body>
+    
+</body>
+</html>

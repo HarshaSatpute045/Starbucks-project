@@ -1,0 +1,19 @@
+.containor
+{
+border: 2px solid black;
+width: 500px;
+height: 400px;
+}
+.item{
+    height: 200px;
+    width: 200px;
+    max-width: 2px;
+    background-color: #1776cf;
+    border: 2px solid black;
+    float: left;
+}
+
+#item3
+{
+    float: right;
+}

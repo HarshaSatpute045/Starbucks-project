@@ -1,0 +1,49 @@
+https://fonts.google.com/specimen/Playwrite+CU?query=p
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(228, 228, 240);
+    color: black;
+    font-family: "Playwrite CU",cursive;
+
+}
+#box
+{
+    height: 600px;
+    width: 400px;
+    background-color: teal;
+    background-color: white;
+    margin: 100px auto;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+flex-direction: column;
+
+}
+.iteam
+{
+    background-color: lightgray;
+    border-radius: 8px;
+    color: black;
+    width: 95%;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s;
+}
+.iteam:hover{
+    transform: scale(1.1);
+    --c:rgb(252, 10, 10);
+    background-color: var(--c);
+    color: white;
+
+}

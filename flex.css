@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+main{
+    border: 3px  solid rgb(185, 27, 27);
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#box1
+{
+    margin:10px;
+    
+    display: block; 
+    width: 200px;
+    height: 200px;
+    background-color:white ;
+    color: black;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+#box2
+{
+    margin: 10px;
+    display: block;
+
+    background-color: teal;
+    color: white;
+    font-size: 35px;
+    
+    height: 200px;
+    width: 200px;
+}
+#box3
+{
+    margin: 10px;
+    display: block;
+
+    background-color: green;
+    color: black;
+    font-size: 35px;
+    
+    height: 200px;
+    width: 200px;
+}

@@ -1,0 +1,26 @@
+
+p
+{
+    font-style:normal;
+   
+}
+#firstpara
+{
+    background-color:ghostwhite;
+    color: black;
+}
+#secondpara
+{
+    background-color: rgb(98, 190, 190);
+   color: black;
+}
+#thirdpara
+{
+    background-color: palevioletred;
+    color: #571340;
+}
+.firstclass
+{
+    background-color: #571340;
+    color: black;
+}

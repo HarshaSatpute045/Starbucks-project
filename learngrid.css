@@ -1,0 +1,26 @@
+*{
+     padding:0;
+     margin:0;
+     box-sizing:border-box;
+}
+body{
+
+height: 100vh;
+width: 100vw;
+}
+.containor
+{
+    height: 100%;
+    width: 100%;
+
+    background-color: rgb(145, 129, 129);
+    display: grid;
+    padding: 4rem;
+    row-gap: 1rem;
+    grid-template-columns: 100px 100px 100px;
+}
+.item
+{
+    background-color: rgb(62, 62, 146);
+    border: 5px solid black;
+}

@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7adfff;
+}
+
+.container {
+    max-height: 1200px;
+    max-width: 800px;
+    padding: 0 16px;
+    margin: 52px auto;
+    }
+
+.grid {
+    display: grid;
+    grid-template-areas:
+     "box1 box1 box1 box3 "
+    "box2 box2 box2 box3  "
+    "box2 box2 box2 box3 ";
+    gap: 10px;
+}
+
+.box1 {
+    grid-area: box1;
+    background-color: #4F8DEC;
+    height: 200px;
+}
+
+.box2 {
+    grid-area: box2;
+    background-color: #081B38;
+    height: 200px;
+}
+
+.box3 {
+    grid-area: box3;
+    background-color: #005C79;
+    height: 500px;
+}

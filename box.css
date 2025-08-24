@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+#main
+{
+    height:600px;
+    width: 450px;
+    margin-top: 100px;
+    background-color: white;
+    
+    
+
+}
+#first
+{
+    height: 400px;
+    width: 450px;
+    background-image: url(https://cdn.dribbble.com/users/189524/screenshots/2822794/silhouette-solo-loader-dribbble_v2.gif);
+    background-position: center;
+    
+}
+#second
+{
+    height: 200px;
+    width: 450px;
+}
+#second form input{
+    padding: 10px 20px;
+    border-radius: 30px;
+
+}
+#btn1
+{
+    padding :8px 25px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+#btn2
+{
+    padding:8px 25px;
+    border-radius: 30px;
+    background-color: rgb(221, 29, 29);
+    color: rgb(12, 12, 73);
+}

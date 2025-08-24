@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border: 2px solid red;
+}
+main{
+    height: 20px;
+    
+    margin-left: 100;
+    background-color: aqua;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#box1
+{
+    margin: 10px;
+    height:200px;
+    width: 200px;
+    border: 2px solid red;
+    display: flex;
+    
+    
+    font-family: sans-serif;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/480px-Google_%22G%22_logo.svg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+
+
+}
+#box2
+{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    display: flex;
+    background-image: url("https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo.png");
+    background-position: left-center;
+    background-size: cover;
+
+    font-family: sans-serif;
+
+
+
+}

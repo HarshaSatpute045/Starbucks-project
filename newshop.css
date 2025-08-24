@@ -1,0 +1,64 @@
+*{
+     padding:0;
+     margin:0;
+     box-sizing:border-box;
+}
+body{
+background-color:white;
+color:black;
+font-family:sans-serif;
+}
+nav
+{
+    background-color: white;
+    color: black;
+     box-shadow: 0px 10px 20px lightgray ;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px 30px;
+     box-shadow:  0px 10px 50px rgb(189, 182, 182);
+}
+#Logosection
+{
+    display: flex;
+    align-items: center;
+
+}
+#searchbar
+{
+    display: flex;
+    width: 40%;
+    
+
+}
+#searchbar input{
+    border: 2px solid rgb(40, 40, 104);
+    width: 100%;
+padding: 8px 20px;
+border-radius: 8px;
+}
+#searchbar button{
+padding: 7px 16px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+#Logosection img{
+    height: 60px;
+    width: 40px;
+}
+ul li img{
+    height: 150px;
+    width: 110px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+  column-gap: 20px;
+    list-style: none;
+
+}

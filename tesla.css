@@ -1,0 +1,110 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-US-v2.png");
+    background-position: bottom-center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 17px 47px;
+}
+nav svg{
+    width:120px;
+}
+nav ul{
+    list-style: none;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 32px;
+    font-size: 14px;
+}
+navoptions
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 32px;
+    font-size: 14px;
+
+}
+navlinks
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 32px;
+    font-size: 18px;
+}
+main{
+    
+    height: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+   
+}
+
+#content
+{
+   
+margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#content h1{
+    font-size: 58px;
+    font-weight: 600;
+}
+#content h3
+{
+font-weight: 400;
+font-size: 28px;
+text-decoration: underline;
+margin-top: 5px;
+
+}
+#content p
+{
+    font-weight: 300;
+    font-size: 18px;
+    
+    margin-top: 5px;  
+}
+#btns
+{
+    margin-bottom: 25px;
+    display: flex;
+    column-gap: 15px;
+}
+#btns button{
+    background-color: white;
+    border:none;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 265px;
+    padding: 12px;
+    outline: none;
+
+}
+#btns button:first-child{
+    background-color: rgb(34, 34, 114);
+    color: white;
+}
